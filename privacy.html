@@ -5,79 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Privacy policy for the Salesforce Apex Network Logger Chrome extension.">
   <title>Privacy Policy — Salesforce Apex Network Logger</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --brand: #0176d3;
-      --ink: #181818;
-      --muted: #5f5f5f;
-      --line: #dedede;
-      --surface: #fff;
-      --background: #f5f7fa;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      padding: 32px 16px;
-      background: var(--background);
-      color: var(--ink);
-      font: 16px/1.6 "Segoe UI", Arial, sans-serif;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 32px;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      background: var(--surface);
-      box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
-    }
-
-    h1, h2 { line-height: 1.25; }
-    h1 { margin-top: 0; color: #032d60; }
-    h2 { margin: 28px 0 8px; color: #0b5cab; font-size: 1.2rem; }
-    p, ul { margin: 8px 0 0; }
-    li + li { margin-top: 6px; }
-    .updated { color: var(--muted); font-size: 0.9rem; }
-
-    @media (max-width: 540px) {
-      body { padding: 12px; }
-      main { padding: 22px 18px; }
-    }
-  </style>
 </head>
 <body>
-  <main>
-    <h1>Privacy Policy</h1>
-    <p><strong>Salesforce Apex Network Logger</strong> is a Chrome extension that helps users inspect Salesforce Apex network activity in a browser tab they choose.</p>
-    <p class="updated">Effective date: November 9, 2026</p>
+  <h1>Privacy Policy</h1>
+  <p><strong>Salesforce Apex Network Logger</strong> is a Chrome extension that helps users inspect Salesforce Apex network activity in a browser tab they choose.</p>
+  <p>Effective date: November 9, 2026</p>
 
-    <h2>Information the extension processes</h2>
-    <p>When you start capture, the extension processes network activity in the selected HTTPS tab to identify Salesforce Aura Apex actions and Apex REST requests. Depending on the requests, this can include URLs, request methods, timestamps, status information, request parameters and bodies, response data, and error details. Captured Salesforce data may contain personal, confidential, or otherwise sensitive information.</p>
+  <h2>Information the extension processes</h2>
+  <p>When you start capture, the extension processes network activity in the selected HTTPS tab to identify Salesforce Aura Apex actions and Apex REST requests. Depending on the requests, this can include URLs, request methods, timestamps, status information, request parameters and bodies, response data, and error details. Captured Salesforce data may contain personal, confidential, or otherwise sensitive information.</p>
 
-    <h2>How information is used</h2>
-    <p>Captured information is used to display, search, and filter network entries in the extension’s side panel and to create a JSON log when you choose Export. The extension does not send captured logs to the extension developer or to an extension-operated server. It does not use captured information for advertising or analytics.</p>
+  <h2>How information is used</h2>
+  <p>Captured information is used to display, search, and filter network entries in the extension’s side panel and to create a JSON log when you choose Export. The extension does not send captured logs to the extension developer or to an extension-operated server. It does not use captured information for advertising or analytics.</p>
 
-    <h2>Storage and retention</h2>
-    <p>Capture data is held in the extension and Chrome’s session storage on your device so it can be shown during the browser session. The logger limits the number of retained entries, and some large payloads may be omitted or truncated. Session data is intended to be temporary; Chrome may clear it when the browser session ends or the extension is reloaded, disabled, or updated. You can also use Clear in the side panel to remove the current capture.</p>
+  <h2>Storage and retention</h2>
+  <p>Capture data is held in the extension and Chrome’s session storage on your device so it can be shown during the browser session. The logger limits the number of retained entries, and some large payloads may be omitted or truncated. Session data is intended to be temporary; Chrome may clear it when the browser session ends or the extension is reloaded, disabled, or updated. You can also use Clear in the side panel to remove the current capture.</p>
 
-    <h2>Exports and sensitive information</h2>
-    <p>Export creates a JSON file on your device at your request. The extension redacts certain recognized token and session fields, including common <code>aura.token</code> fields. It does not collect or store cookie or authorization headers. Redaction is not a guarantee that every secret or sensitive value in every request or response will be detected. Review exported files carefully, store them securely, and share them only with people authorized to see their contents.</p>
+  <h2>Exports and sensitive information</h2>
+  <p>Export creates a JSON file on your device at your request. The extension redacts certain recognized token and session fields, including common <code>aura.token</code> fields. It does not collect or store cookie or authorization headers. Redaction is not a guarantee that every secret or sensitive value in every request or response will be detected. Review exported files carefully, store them securely, and share them only with people authorized to see their contents.</p>
 
-    <h2>Permissions and site access</h2>
-    <p>The extension uses Chrome’s debugger capability to observe network activity in the selected tab, session storage to retain capture data temporarily, scripting for capture-related handling of embedded frames, and the side panel to show the inspector. It requests optional access to the selected HTTPS site when needed rather than requiring access to every site at installation. Chrome may display a debugger warning while capture is active. Stop capture when you are finished.</p>
+  <h2>Permissions and site access</h2>
+  <p>The extension uses Chrome’s debugger capability to observe network activity in the selected tab, session storage to retain capture data temporarily, scripting for capture-related handling of embedded frames, and the side panel to show the inspector. It requests optional access to the selected HTTPS site when needed rather than requiring access to every site at installation. Chrome may display a debugger warning while capture is active. Stop capture when you are finished.</p>
 
-    <h2>Third-party services</h2>
-    <p>The extension does not transmit captured data to third-party services. Salesforce and Chrome are separate services subject to their own privacy policies when you use them.</p>
+  <h2>Third-party services</h2>
+  <p>The extension does not transmit captured data to third-party services. Salesforce and Chrome are separate services subject to their own privacy policies when you use them.</p>
 
-    <h2>Children’s privacy</h2>
-    <p>This extension is a developer and administrator tool and is not designed for children.</p>
+  <h2>Children’s privacy</h2>
+  <p>This extension is a developer and administrator tool and is not designed for children.</p>
 
-    <h2>Changes and contact</h2>
-    <p>This policy may be updated when the extension’s data practices change. The effective date above will be revised when changes are made. For privacy questions, use the developer contact information shown on the extension’s Chrome Web Store listing.</p>
-  </main>
+  <h2>Changes and contact</h2>
+  <p>This policy may be updated when the extension’s data practices change. The effective date above will be revised when changes are made. For privacy questions, use the developer contact information shown on the extension’s Chrome Web Store listing.</p>
 </body>
 </html>
